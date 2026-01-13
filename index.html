@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d0f0b02c2b.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="nav">
+        <p id="info-click">O mnie</p>
+        <p id="projects-click">Projekty</p>
+        <p id="artwork-click">Moje prace</p>
+    </header>
+    <div class="container">
+        <div class="intro" id="intro">
+            <h1>O mnie</h1>
+            <div class="about" id="about">
+                <div class="profile-picture">
+                    <img src="PFP.jpg" alt="Zdjęcie profilowe">
+                </div>
+                <div class="description">
+                    <h1>Melania Jądrzyk</h1>
+                    <h2>Grafik 2D, 3D, koncept artysta</h2>
+                    <p>Jestem studentką kierunku Game Development na uczelni Collegium Da Vinci w Poznaniu. Specjalizuję się w grafice 2D, 3D oraz projektowaniu postaci do gier komputerowych
+                    </p>
+                    <p style="text-align: center;">Zapraszam do zapoznania się z moimi projektami!</p>
+                </div>
+            </div>
+            <div class="info">
+                <div class="contact">
+                    <h1>Kontakt</h1>
+                    <p><i class="fa-solid fa-house"></i> Poznań, Polska</p>
+                    <p><i class="fa-solid fa-phone"></i> <a target="_blank" href="tel:+48889390535">+48 889390535</a></p>
+                    <p><i class="fa-solid fa-envelope"></i> <a target="_blank" href="mailto:melania.jadrzyk2004@gmail.com">melania.jadrzyk2004@gmail.com</a></p>
+                    <p><i class="fa-brands fa-linkedin"></i> <a target="_blank" href="https://www.linkedin.com/in/melania-jądrzyk-731630394/">LinkedIn</a></p>
+                    <p><i class="fa-brands fa-discord"></i> <a target="_blank" href="https://discord.com/users/shittymatsuu">Discord</a></p>
+                    <p><i class="fa-solid fa-file"></i> <a target="_blank" href="Melania_Jądrzyk_CV.pdf">CV</a></p>
+                </div>
+                <div class="skills">
+                    <h1>Umiejętności</h1>
+                    <p><i class="fa-solid fa-volume-high"></i> Biegłość pracy w programach rysunkowych takich jak Photoshop, Krita</p>
+                    <p><i class="fa-solid fa-cube"></i> Tworzenie modeli 3D w Blenderze</p>
+                    <p><i class="fa-brands fa-unity"></i> Teksturowanie w Substance Painter</p>
+                    <p><i class="fa-brands fa-html5"></i> Designowanie postaci do gier komputerowych</p>
+                    <p><i class="fa-solid fa-language"></i> Język angielski na poziomie C1 + język branżowy</p>
+                    <p><i class="fa-solid fa-people-group"></i> Łatwości w pracy w zespole</p>
+                </div>
+            </div>
+        </div>
+        <div class="projects" id="projects">
+            <h1>Projekty</h1>
+            <div class="komputronik">
+                <h1>Projekty Komputronik S.A.</h1>
+                <div class="ninja">
+                    <h1>"Pizza Slash" - październik 2025</h1>
+                    <p>Gra wystawiona na PGA 2025, w której przecinamy nadalatujące składniki pizzy i unikamy przecinania części komputerowych, a gracze którzy przeżyją najdłużej mogą wygrać vouchery na pizzę.</p>
+                    <p>Projekt wykonany na zlecenie Komputronik</p>
+                    <p><b>Rola:</b> Grafiki 2D, UI, tła</p>
+                    <div class="slideshow-container">
+                        <div class="mySlides5"><img src="Images/KN.png" alt="Grafika Pizza Slash"></div>
+                        <div class="mySlides5"><img src="Images/KN1.png" alt="Grafika Pizza Slash"></div>
+                        <div class="mySlides5"><img src="Images/KN2.png" alt="Ekran gry Pizza Slash"></div>
+                        <div class="mySlides5"><img src="Images/KN3.gif" alt="Ekran gry Pizza Slash"></div>
+                        <div class="mySlides5"><img src="Images/KN4.png" alt="Ekran gry Pizza Slash"></div>
+                        <div class="mySlides5"><img src="Images/KN5.gif" alt="Ekran gry Pizza Slash"></div>
+                    </div>
+                </div>
+                <div class="elektronik">
+                    <h1>Elektronik - wrzesień 2025</h1>
+                    <p>Gra opublikowana jako konkurs na stronie komputronika, w której gracze mogą wygrywać nagrody przewidziane przez organizatora czyli vouchery na zakupy w sklepie oraz nagroda główna - komputer.</p>
+                    <p>Projekt wykonany na zlecenie Komputronik</p>
+                    <p><b>Rola:</b> Animacje postaci, grafiki 2D, UI</p>
+                    <p><a target="_blank" href="https://www.komputronik.pl/lp/level">Oficjalna strona Komputronik</a></p>
+                    <button id="play-elektron">Zagraj teraz</button><iframe class="game" id="elektron" src="TowerBuild/index.html"></iframe>
+                    <div class="slideshow-container">
+                        <div class="mySlides1"><img src="Images/KT.png" alt="Grafika Elektronik"></div>
+                        <div class="mySlides1"><img src="Images/KT1.png" alt="Ekran gry Elektronik"></div>
+                        <div class="mySlides1"><img src="Images/KT3.gif" alt="Ekran gry Elektronik"></div>
+                        <div class="mySlides1"><img src="Images/KT5.gif" alt="Ekran gry Elektronik"></div>
+                        <div class="mySlides1"><img src="Images/KT4.png" alt="Ekran gry Elektronik"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="alice">
+                <h1>We Did It, Alice! - 2025</h1>
+                <h3><a target="_blank" href="https://github.com/Karmelica/We-Did-It-Alice">Link do projektu</a></h3>
+                <p>Wcielamy się w Rotamimi - kotka, który chce pomóc tytułowej bohaterce pokonać swoje traumy. Gracz musi przejść przez cztery minigierki odpowiadające wydarzeniom z przeszłości bohaterki</p>
+                <p>Projekt stworzony podczas GameJam'u Animatora <b>"Rotamina - chemia w nas"</b>.</p>
+                <p><b>Rola:</b> Animacje postaci, Grafika 2D, UI</p>
+                <p>Gra zdobyła pierwsze miejsce w konkursie<br>
+                <a target="_blank" href="https://animator-festival.com/news/laureaci-game-jam-2025/">Wyniki konkursu Animator</a></p>
+                <button id="play-alice">Zagraj teraz</button><iframe class="game" id="alice" src="WeDidItAliceBuild/index.html"></iframe>
+                <iframe id="yt" src="https://www.youtube.com/embed/GTdlPGpYMjI?si=3dEQwMRlJh76sVKz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="slideshow-container">
+                    <div class="mySlides2"><img src="Images/WD.png" alt="Grafika promocyjna We Did It, Alice!"></div>
+                    <div class="mySlides2"><img src="Images/WD1.gif" alt="Ekran gry We Did It, Alice!"></div>
+                    <div class="mySlides2"><img src="Images/WD2.gif" alt="Ekran gry We Did It, Alice!"></div>
+                    <div class="mySlides2"><img src="Images/WD3.gif" alt="Ekran gry We Did It, Alice!"></div>
+                </div>
+            </div>
+            <div class="unseen">
+                <h1>Sights Unseen 2024 - 2025</h1>
+                <h3><a target="_blank" href="https://github.com/Karmelica/Sights-Unseen">Link do projektu</a></h3>
+                <p>Gracz wciela się w postać niedowidzącego karateki, który musi odnaleźć się w nowej rzeczywistości po częściowej utracie wzroku. Gra została wybrana przez wykładowców do zaprezentowania na <b>Press Start 2025</b> na Collegium Da Vinci w Poznaniu</p>
+                <p>Projekt stworzony w ramach zaliczenia przedmiotu "Zarządzanie projektami"</p>
+                <div>
+                    <div class="mySlides3"><img src="Images/SU0.png" alt="Ekran gry SightsUnseen"></div>
+                    <div class="mySlides3"><img src="Images/SU1.png" alt="Ekran gry SightsUnseen"></div>
+                    <div class="mySlides3"><img src="Images/SU2.png" alt="Ekran gry SightsUnseen"></div>
+                </div>
+            </div>
+        </div>
+        <div class="artwork" id="artwork">
+            <h1>Moje Prace</h1>
+                <h1>Prace 3D</h1>
+            <div class="artworks">
+                <img src="Images/artwork/kociol.png" alt="Praca 1">
+                <img src="Images/artwork/shiny_fish.png" alt="Praca 2">
+            </div>
+                <h1>Prace 2D</h1>
+            <div class="artworks">
+                <img src="Images/artwork/chand_d_15.03.23.png" alt="Praca 1">
+                <img src="Images/artwork/chand_spierdoliny_19.03.23.png" alt="Praca 1">
+                <img src="Images/artwork/cinnabar_19.08.24.png" alt="Praca 1">
+                <img src="Images/artwork/despair_25.11.23.png" alt="Praca 1">
+                <img src="Images/artwork/noragami_redraw2_18.06.23.png" alt="Praca 1">
+                <img src="Images/artwork/shawn_redraw2_19.07.png" alt="Praca 1">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2026 Melania Jądrzyk</p>
+    </footer>
+</body>
+</html>
